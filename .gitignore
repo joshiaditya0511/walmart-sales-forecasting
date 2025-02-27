@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Stationary folder
+Stationary/Notes/
+Stationary/Resources/
+Stationary/Temp/
+Stationary/ProblemStatement.md
+Stationary/Reports
+
+# UV files
+.python-version
+
+
+# Temporary serving files using FastAPI
+app.py
+
+# Ignoring Jupyter Book Build files
+Website/_build/

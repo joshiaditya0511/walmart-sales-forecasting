@@ -1,0 +1,14 @@
+1. After building notebook, copy iframe_figures from _build to _build/html/
+2. After building notebook, copy custom.css file to _build/html/_static/
+3. Run long execution time cells beforehand, add skip-execution tags to those cells. It's output will be cached.
+3. In nginx config, add a redirect rule to redirect home '/' to the analysis page.
+4. Use exclude_patterns to exclude execution of forecasting.ipynb
+
+ToDo:
+1. Change metadata of website like:
+    1. Logo
+    2. Copyright
+    3. OpenGraph stuff
+    4. Favicon
+    5. Github repo
+    

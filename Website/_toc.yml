@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: home
+
+parts:
+- caption: Summary
+  chapters:
+  - file: summary/introduction
+  - file: summary/summary
+- caption: Analysis and Forecasting
+  chapters:
+  - file: main/analysis
+  - file: main/forecasting
+- caption: About
+  chapters:
+  - file: about/about
+
