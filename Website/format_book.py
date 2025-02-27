@@ -32,6 +32,9 @@ def update_tags_in_notebook(notebook_path):
     with open(notebook_path, 'w', encoding='utf-8') as f:
         nbformat.write(notebook, f)
 
-# Example usage
+
 notebook_path = 'Website/main/analysis.ipynb'  # Replace with your notebook path
+update_tags_in_notebook(notebook_path)
+
+notebook_path = 'Website/main/forecasting.ipynb'  # Replace with your notebook path
 update_tags_in_notebook(notebook_path)

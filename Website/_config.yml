@@ -4,7 +4,7 @@
 
 
 title: Walmart Sales Forecasting
-author: Aditya Joshi (www.adityajoshi.in)
+author: Aditya Joshi [www.adityajoshi.in]
 logo: logo2.png
 copyright: "2025"
 
@@ -12,7 +12,6 @@ copyright: "2025"
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
-  exclude_tags: [no-execute]
   only_build_toc_files: true
   exclude_patterns:
     - 'main/forecasting.ipynb'
@@ -29,7 +28,7 @@ execute:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/joshiaditya0511/walmart-sales-forecasting  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
@@ -38,7 +37,8 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
-
+  home_page_in_navbar: false
+  favicon: favicon.ico
 
 sphinx:
   config:
