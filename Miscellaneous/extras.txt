@@ -3,6 +3,7 @@
 3. Run long execution time cells beforehand, add skip-execution tags to those cells. It's output will be cached.
 3. In nginx config, add a redirect rule to redirect home '/' to the analysis page.
 4. Use exclude_patterns to exclude execution of forecasting.ipynb
+5. Add root redirect from '/' to /main/analysis.html in vercel.json
 
 ToDo:
 1. Change metadata of website like:

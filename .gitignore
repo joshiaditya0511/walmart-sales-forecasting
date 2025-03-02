@@ -24,4 +24,5 @@ Stationary/Reports
 app.py
 
 # Ignoring Jupyter Book Build files
-Website/_build/
+Website/_build/.doctrees/
+Website/_build/jupyter_execute/

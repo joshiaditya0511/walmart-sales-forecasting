@@ -11,7 +11,7 @@ copyright: "2025"
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: force
   only_build_toc_files: true
   exclude_patterns:
     - 'main/forecasting.ipynb'
